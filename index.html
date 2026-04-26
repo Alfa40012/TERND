@@ -1,0 +1,218 @@
+cat > index.html << 'EOF'
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREND IPTV | أقوى سيرفر IPTV في مصر</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="https://i.ibb.co/Y4fV36Rz/file-000000005c847243a6e9e1b667b6a222.png" alt="TREND IPTV">
+                <span>TREND IPTV</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#packages">الباقات</a></li>
+                <li><a href="#channels">القنوات</a></li>
+                <li><a href="#worldcup">كأس العالم</a></li>
+                <li><a href="#offers">العروض</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <!-- القسم الرئيسي -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>TREND IPTV</h1>
+                <h2>عالم من الترفيه اللا محدود</h2>
+                <p>🎬 أحدث المسلسلات | 🎥 أحدث الأفلام | ⚽ جميع المباريات | 🏆 كأس العالم 2026</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/message/2JZ4HHC5JOSFC1" class="btn btn-whatsapp">📞 اشتراك واتساب</a>
+                    <a href="#packages" class="btn btn-secondary">📺 عروض الاشتراك</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الباقات -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <h2 class="section-title">💰 باقات الاشتراك</h2>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-header monthly">📅 شهري</div>
+                    <div class="package-price">5$<span>/شهر</span></div>
+                    <ul class="package-features">
+                        <li>✅ 15,000+ قناة</li>
+                        <li>✅ جودة HD & 4K</li>
+                        <li>✅ دعم فني 24/7</li>
+                        <li>✅ تحديث يومي</li>
+                    </ul>
+                    <a href="https://wa.me/message/2JZ4HHC5JOSFC1" class="btn-subscribe">اشترك الآن</a>
+                </div>
+                <div class="package-card featured">
+                    <div class="package-badge">🔥 الأكثر مبيعاً</div>
+                    <div class="package-header quarterly">📆 3 أشهر</div>
+                    <div class="package-price">12$<span>/3 شهور</span></div>
+                    <ul class="package-features">
+                        <li>✅ جميع مميزات الشهري</li>
+                        <li>✅ خصم 20%</li>
+                        <li>✅ جودة Full HD</li>
+                        <li>✅ أولوية الدعم</li>
+                    </ul>
+                    <a href="https://wa.me/message/2JZ4HHC5JOSFC1" class="btn-subscribe">اشترك الآن</a>
+                </div>
+                <div class="package-card">
+                    <div class="package-header yearly">🎉 سنوي</div>
+                    <div class="package-price">35$<span>/سنة</span></div>
+                    <ul class="package-features">
+                        <li>✅ جميع المميزات السابقة</li>
+                        <li>✅ خصم 40%</li>
+                        <li>✅ جودة 4K</li>
+                        <li>✅ شهر مجاني هدية</li>
+                    </ul>
+                    <a href="https://wa.me/message/2JZ4HHC5JOSFC1" class="btn-subscribe">اشترك الآن</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- القنوات -->
+    <section id="channels" class="channels">
+        <div class="container">
+            <h2 class="section-title">📺 قنوات TREND IPTV</h2>
+            <div class="channels-grid">
+                <div class="channel-category">
+                    <h3>⚽ قنوات رياضية</h3>
+                    <ul>
+                        <li>beIN Sports 1-12 HD</li>
+                        <li>SSC Sports 1-5</li>
+                        <li>AD Sports 1-4</li>
+                        <li>ON Time Sports</li>
+                    </ul>
+                </div>
+                <div class="channel-category">
+                    <h3>🎬 قنوات أفلام</h3>
+                    <ul>
+                        <li>OSN Cinema</li>
+                        <li>MBC MAX</li>
+                        <li>Fox Movies</li>
+                        <li>Star Movies</li>
+                    </ul>
+                </div>
+                <div class="channel-category">
+                    <h3>📡 قنوات مسلسلات</h3>
+                    <ul>
+                        <li>MBC Drama</li>
+                        <li>OSN Series</li>
+                        <li>Dubai Drama</li>
+                        <li>Abu Dhabi Drama</li>
+                    </ul>
+                </div>
+                <div class="channel-category">
+                    <h3>🌍 قنوات عامة</h3>
+                    <ul>
+                        <li>MBC 1-5</li>
+                        <li>Al Jazeera</li>
+                        <li>Dubai TV</li>
+                        <li>BBC Arabic</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- كأس العالم 2026 -->
+    <section id="worldcup" class="worldcup">
+        <div class="container">
+            <h2 class="section-title">🏆 كأس العالم 2026</h2>
+            <div class="worldcup-content">
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="days">00</span>
+                        <span class="countdown-label">يوم</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="hours">00</span>
+                        <span class="countdown-label">ساعة</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="minutes">00</span>
+                        <span class="countdown-label">دقيقة</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="seconds">00</span>
+                        <span class="countdown-label">ثانية</span>
+                    </div>
+                </div>
+                <div class="worldcup-info">
+                    <p><strong>🗓️ التاريخ:</strong> 11 يونيو - 19 يوليو 2026</p>
+                    <p><strong>🌍 المنتخبات العربية:</strong> مصر | السعودية | المغرب | الجزائر | تونس</p>
+                    <p><strong>📺 قنوات البث:</strong> beIN SPORTS MAX 1-10 (مجاناً مع TREND)</p>
+                    <div class="offer-tag">🎁 عرض خاص: باقة كأس العالم مجاناً مع أي اشتراك!</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- العروض -->
+    <section id="offers" class="offers">
+        <div class="container">
+            <h2 class="section-title">🎁 عروض TREND الحصرية</h2>
+            <div class="offers-grid">
+                <div class="offer-card">
+                    <div class="offer-icon">🔥</div>
+                    <h3>عرض أول (محدود)</h3>
+                    <p>اشترك الآن واحصل على شهر مجاني + باقة كأس العالم 2026 مجاناً</p>
+                    <span class="offer-discount">خصم 40%</span>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-icon">🎉</div>
+                    <h3>عرض كأس العالم</h3>
+                    <p>باقة beIN SPORTS MAX (1-10) مجاناً مع أي اشتراك</p>
+                    <span class="offer-discount">جودة 4K + HDR</span>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-icon">👥</div>
+                    <h3>عرض الأصدقاء</h3>
+                    <p>ادعُ 3 أصدقاء → شهر مجاني<br>ادعُ 5 أصدقاء → 3 أشهر مجانية</p>
+                    <span class="offer-discount">كل دعوة = نقطة</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تواصل -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">📞 تواصل مع TREND IPTV</h2>
+            <div class="contact-buttons">
+                <a href="https://wa.me/message/2JZ4HHC5JOSFC1" class="contact-btn whatsapp">💬 واتساب مباشر</a>
+                <a href="https://t.me/trendtv1" class="contact-btn telegram">📢 قناة التحديثات</a>
+                <a href="mailto:trendiptv@gmail.com" class="contact-btn email">📧 البريد الإلكتروني</a>
+            </div>
+            <div class="footer">
+                <p>© 2026 TREND IPTV - جميع الحقوق محفوظة</p>
+                <p>✨ جودة 4K – بدون تقطيع – دعم فني 24/7</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
+EOF
